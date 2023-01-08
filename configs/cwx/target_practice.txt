@@ -1,0 +1,25 @@
+"Items"
+{
+	"target_practice"
+	{
+		"name"			"Target Practice"
+		"inherits"		"TF_WEAPON_SNIPERRIFLE"
+		
+		"attributes_custom"
+		{
+			"only headshots"				"1"
+			"weaponmodel override"				"models/weapons/c_models/c_sniperrifle/targetpractice.mdl"
+			"replace sound"					"target_practice"
+			// "custom sound on scoped"			")weapons/targetpractice_shoot.wav"
+		}
+		
+		// Attrib: sniper beep with enemy under crosshair - requires Hidden DEV Attributes Plugin (https://forums.alliedmods.net/showthread.php?t=326853)
+		"attributes_game"
+		{
+			"maxammo primary increased"			"3"
+			"crit mod disabled"				"1"
+			"cannot pick up intelligence"			"1"
+			"sniper beep with enemy under crosshair"	"1"
+		}
+	}
+}
